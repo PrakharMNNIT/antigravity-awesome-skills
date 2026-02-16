@@ -7,6 +7,69 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [5.5.0] - 2026-02-16 - "Laravel Pro & ReactFlow Architect"
+
+> **Advanced Laravel engineering roles and ReactFlow architecture patterns.**
+
+This release introduces professional Laravel capabilities (Expert & Security Auditor) and a comprehensive ReactFlow Architect skill for building complex node-based applications.
+
+### Added
+
+- **New Skill**: `laravel-expert` - Senior Laravel Engineer role for production-grade, maintainable, and idiomatic solutions (clean architecture, security, performance).
+- **New Skill**: `laravel-security-audit` - Specialized security auditor for Laravel apps (OWASP, vulnerabilities, misconfigurations).
+- **New Skill**: `react-flow-architect` - Expert ReactFlow patterns for interactive graph apps (hierarchical navigation, performance, customized state management).
+
+### Changed
+
+- **OpenCode**: Updated installation path to `.agents/skills` to align with latest OpenCode standards.
+
+### Registry
+
+- **Total Skills**: 860 (from 857).
+- **Generated Files**: Synced `skills_index.json`, `data/catalog.json`, and `README.md`.
+
+### Contributors
+
+- **[@Musayrlsms](https://github.com/Musayrlsms)** - Laravel Expert & Security Audit skills (PR #85, #86).
+- **[@mertbaskurt](https://github.com/mertbaskurt)** - ReactFlow Architect skill (PR #88).
+- **[@sharmanilay](https://github.com/sharmanilay)** - OpenCode path fix (PR #87).
+
+---
+
+## [5.4.0] - 2026-02-16 - "CursorRules Pro & Go-Rod"
+
+> **Community contributions: CursorRules Pro in credits and go-rod-master skill for browser automation with Go.**
+
+This release adds CursorRules Pro to Community Contributors and a new skill for browser automation and web scraping with go-rod (Chrome DevTools Protocol) in Golang, including stealth and anti-bot-detection patterns.
+
+### New Skills
+
+#### go-rod-master ([skills/go-rod-master/](skills/go-rod-master/))
+
+**Browser automation and web scraping with Go and Chrome DevTools Protocol.**
+Comprehensive guide for the go-rod library: launch and page lifecycle, Must vs error patterns, context and timeouts, element selectors, auto-wait, and integration with go-rod/stealth for anti-bot detection.
+
+- **Key features**: CDP-native driver, thread-safe operations, stealth plugin, request hijacking, concurrent page pools.
+- **When to use**: Scraping or automating sites with Go, headless browser for SPAs, stealth/anti-bot needs, migrating from chromedp or Playwright Go.
+
+> **Try it:** "Automate logging into example.com with Go using go-rod and stealth."
+
+### Registry
+
+- **Total Skills**: 857 (from 856).
+- **Generated files**: README, skills_index.json, catalog, and bundles synced.
+
+### Credits
+
+- **[@Wittlesus](https://github.com/Wittlesus)** - CursorRules Pro in Community Contributors (PR #81).
+- **[@8hrsk](https://github.com/8hrsk)** - go-rod-master skill (PR #83).
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
+---
+
 ## [5.3.0] - 2026-02-13 - "Advanced Three.js & Modern Graphics"
 
 > **Enhanced Three.js patterns: performance, visual polish, and production practices.**
